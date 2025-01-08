@@ -4,7 +4,7 @@
 <img src="./src/img/mobile.gif" alt="Mobile"/>
 
 👀 Venha saber mais sobre esta pokedex !
-[PokeApi-Quest]([bit.ly/41x9mJX](https://pokedex-gy0r8e308-tcdesenvolvedorwebs-projects.vercel.app/))
+[PokeApi-Quest](https://pokedex-gy0r8e308-tcdesenvolvedorwebs-projects.vercel.app/)
 
 ## Sobre o projeto
 
