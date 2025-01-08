@@ -7,6 +7,7 @@ import { Cards, Footer, ShowMore , Father } from "../../styles/StyledGetPokemon"
 import { ThemeToggleContext } from "../../context/ThemeToggle";
 import { FilterContext } from "../../context/filter";
 import { Loading } from "../../styles/styledOfDetails";
+import procurando from '../../img/procurando.gif';
 
 const List = () => {
   const [data, setData] = useState({ data: [] });
@@ -111,7 +112,7 @@ const List = () => {
         {loading && (
           <Loading>
             <div>
-              <img src="./src/img/procurando.gif" alt="loading" />
+              <img src={procurando} alt="loading" />
               <p>Loading....</p>
             </div>
           </Loading>
