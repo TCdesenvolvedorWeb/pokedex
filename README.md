@@ -1,7 +1,7 @@
 # 🎮🕹️ Pokedex | 📰 Teste técnico
 
-<img src="./src/img/desktop.gif"/>
-<img src="./src/img/mobile.gif"/>
+<img src="./src/img/desktop.png" alt="Desktop"/>
+<img src="./src/img/mobile.gif" alt="Mobile"/>
 
 👀 Venha saber mais sobre esta pokedex !
 
@@ -85,7 +85,7 @@ Este projeto foi uma grande oportunidade para aprender e crescer como desenvolve
 
 ❗ Minha maior dificuldade se apresentou logo de cara, eu não tinha entendido que eu tinha que fazer outra requisição para entrar no data dos pokemons, mas depois de tomar um cafezinho ☕, minha mente 🧠 ficou clara 💡.
 
-❗A segunda foi que eu não estava tentando fazer a requisição dos pokemons sem usar async e await, o que resultava na minhas rendeizações acontecerem antes da requisição ser feita, o motivo de eu ter feito isso foi por achar que dava para usar o axios sem usar async e await ❌.
+❗A segunda foi que eu estava tentando fazer a requisição dos pokemons sem usar async e await, o que resultava nas minhas rendeizações acontecerem antes da requisição ser feita, o motivo de eu ter feito isso foi por achar que dava para usar o axios sem usar async e await ❌.
 
 
 ❗ Também tive problemas na hora de passar o caminho dos elementos, o que me fez pensar que meu código estava errado, mas após pesquisar um pouco sobre o erro que estava sendo entregue no meu console, me deparei com o operador de encadeamento opcional (?.), que permite acessar propriedades de um objeto ou chamar métodos sem precisar verificar explicitamente se o objeto ou uma das propriedades intermediárias está indefinida ou nula. Isso ajuda a evitar erros, como tentativas de acessar propriedades de um valor null ou undefined.
