@@ -1,15 +1,17 @@
 import { createContext, useState } from "react"
+import themeLight from '../img/claro.gif';
+import themeDarck from '../img/tema-escuro.gif';
 
 const themes = {
     light: {
         color: '#000',
         fontWeight: '600',
-        background: 'url(./src/img/claro.gif)',
+        background: `url(${themeLight})`,
     },
     darck: {
         color: '#fff',
         fontWeight: '400',
-        background: 'url(./src/img/tema-escuro.gif)',
+        background: `url(${themeDarck})`,
     }
 }
 

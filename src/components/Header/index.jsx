@@ -3,6 +3,7 @@ import { Search } from "../Buttons/Searche";
 import { useContext } from "react";
 import { ThemeToggleContext , themes} from "../../context/ThemeToggle";
 import { Filter } from "../Buttons/filter";
+import logo from '../../img/logo.png'
 
 const Header = () => {
   const { theme , setTheme} = useContext(ThemeToggleContext)
@@ -11,7 +12,7 @@ const Header = () => {
     <header>
       <Nav>
         <ContainerLogo>
-          <img src="./src/img/logo.png" alt="logo" />
+          <img src={logo} alt="logo" />
         </ContainerLogo>
         <Search/>
         <Filter/>
