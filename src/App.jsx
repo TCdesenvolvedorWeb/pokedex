@@ -1,5 +1,5 @@
 import React from "react";
-import { GlobalStyled } from "../src/styles/StyledGlobal";
+import { GlobalStyled } from "./assets/styles/StyledGlobal";
 import { AppRoutes } from "../src/pages/routes";
 import { NameProvider } from "./context/GetName";
 import { ThemeToggleProvider } from "./context/ThemeToggle";

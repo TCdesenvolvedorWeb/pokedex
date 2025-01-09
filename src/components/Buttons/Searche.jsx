@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { SearchBar, SearchPokemon } from "../../styles/StyledSearch";
+import { SearchBar, SearchPokemon } from "../../assets/styles/StyledSearch";
 
 const Search = () => {
   const [name, setName] = useState();

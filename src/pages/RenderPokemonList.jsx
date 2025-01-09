@@ -1,4 +1,4 @@
-import { List } from "../components/Requests/GetPokemon"
+import { List } from "../Services/GetPokemon"
 
 const RenderPokemonList = () => {
     return <List/>

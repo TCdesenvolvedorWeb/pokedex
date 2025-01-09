@@ -18,10 +18,10 @@ const Filter = () => {
   return (
     <select name="filter" onChange={(e) => setFilter(e.target.value)}>
       <option value=""> Filter </option>
-      {type?.map((e, index) => {
+      {type?.map((e) => {        
         return (
           <>
-            <option key={index} value={e.name}>
+            <option key={e.name} value={e.name}>
                 {e.name !== "stellar" && e.name !== 'unknown' ? e.name : "indisponivel"}
             </option>
           </>

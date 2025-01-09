@@ -1,4 +1,4 @@
-import { Nav , ContainerLogo , ThemeToggle} from "../../styles/Header";
+import { Nav , ContainerLogo , ThemeToggle} from "../../assets/styles/Header";
 import { Search } from "../Buttons/Searche";
 import { useContext } from "react";
 import { ThemeToggleContext , themes} from "../../context/ThemeToggle";

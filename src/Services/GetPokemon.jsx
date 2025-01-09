@@ -1,13 +1,13 @@
 import axios from "axios";
 import React, { useContext, useEffect, useState } from "react";
-import { PokeList } from "../Render/RenderPokemonList";
-import { AllPokemons, Pokemon } from "../variables";
-import { Header } from "../Header";
-import { Cards, Footer, ShowMore , Father } from "../../styles/StyledGetPokemon";
-import { ThemeToggleContext } from "../../context/ThemeToggle";
-import { FilterContext } from "../../context/filter";
-import { Loading } from "../../styles/styledOfDetails";
-import procurando from '../../img/procurando.gif';
+import { PokeList } from "../components/Render/RenderPokemonList.jsx";
+import { AllPokemons, Pokemon } from "../Utils/index.jsx";
+import { Header } from "../components/Header";
+import { Cards, Footer, ShowMore , Father } from "../assets/styles/StyledGetPokemon.jsx";
+import { ThemeToggleContext } from "../context/ThemeToggle";
+import { FilterContext } from "../context/filter";
+import { Loading } from "../assets/styles/styledOfDetails.jsx";
+import procurando from '../img/procurando.gif';
 
 const List = () => {
   const [data, setData] = useState({ data: [] });

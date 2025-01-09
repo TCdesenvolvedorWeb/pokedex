@@ -1,11 +1,11 @@
 import { useSearchParams } from "react-router-dom";
-import { Pokemon } from "../variables";
+import { Pokemon } from "../Utils";
 import React, { useContext, useEffect, useState } from "react";
 import axios from "axios";
-import { GetName } from "../../context/GetName";
-import { RenderDetails } from "../Render/renderDetails";
+import { GetName } from "../context/GetName";
+import { RenderDetails } from "../components/Render/renderDetails";
 
-const PokemonDetails = (props) => {
+const PokemonDetails = () => {
   const [searchParams] = useSearchParams();
   const query = searchParams.get("query");
   const [details, setDetails] = useState([]);

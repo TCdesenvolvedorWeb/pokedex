@@ -1,4 +1,4 @@
-import { PokemonDetails } from "../components/Requests/PokemonDetails"
+import { PokemonDetails } from "../Services/PokemonDetails"
 
 const Details = () => {
     return <PokemonDetails/>
